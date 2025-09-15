@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+import sys, os
+sys.path.append(os.path.dirname(__file__))
+
 import curses
 import random
 from lib.curses_util import mainloop
