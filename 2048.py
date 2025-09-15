@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 import sys, os
-sys.path.append(os.path.dirname(__file__))
-
 import curses
 import random
 from lib.curses_util import mainloop
 from lib.colors import get_color
+
+# Fix Lib Pathing
+sys.path.append(os.path.dirname(__file__))
 
 # =======================
 # Tunables / “theme” bits
