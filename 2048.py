@@ -1,13 +1,9 @@
 #!/usr/bin/env python3
-# Fix Lib Pathing
-import sys, os
-sys.path.append(os.path.dirname(__file__))
-
 # Imports
 import curses
 import random
-from lib.curses_util import mainloop
-from lib.colors import get_color
+from .lib.curses_util import mainloop
+from .lib.colors import get_color
 
 # =======================
 # Tunables / “theme” bits
